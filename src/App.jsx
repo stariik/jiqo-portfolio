@@ -1,9 +1,10 @@
 import './index.css';
+import Projects from './Pages/Projects';
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl underline">Hello, clean React + Vite!</h1>
+      <Projects />
     </div>
   );
 }
