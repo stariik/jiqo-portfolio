@@ -13,14 +13,15 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-1 gap-8 mx-auto w-max"> 
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto w-max mt-12">
+      <div className='col-span-1 md:col-span-2 text-lg text-center mt-2 w-md mx-auto'>I'm Luka Jikia, a graphic & UI / UX designer with an addiction to detail and a love for storytelling.</div>
       <ProjectCard imageSrc={"/images/BOOKINGHUB.png"} title={"Booking Hub"}/>
       <ProjectCard imageSrc={"/images/BOOKINGHUBAPP.png"} title={"Booking Hub App"}/>
       <ProjectCard imageSrc={"/images/MARKETINO.png"} title={"Marketino"}/>
       <ProjectCard imageSrc={"/images/TEACORNER.png"} title={"Tea Corner"}/>
       <ProjectCard imageSrc={"/images/TRUSTSTER.png"} title={"Trustster"}/>
       <ProjectCard imageSrc={"/images/MEKOBRE.png"} title={"Mekobre"}/>
-      <ProjectCard imageSrc={"/images/PLAYGROUND.png"} title={"Visual PlayGround"} className={"col-span-2"}/>
+      <ProjectCard imageSrc={"/images/PLAYGROUND.png"} title={"Visual PlayGround"} className={"col-span-1 md:col-span-2"}/>
     </div>
   )
 }
