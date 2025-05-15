@@ -35,13 +35,13 @@ function About() {
           <h3 className="font-semibold mb-2">Programs</h3>
           <div className="grid grid-cols-2 gap-y-1 text-gray-600">
             <p>Photoshop</p>
-            <p>Figma</p>
+            <p>Lightroom</p>
             <p>Illustrator</p>
+            <p>Figma</p>
+            <p>Premiere Pro</p>
             <p>Powerpoint</p>
             <p>InDesign</p>
             <p>Word</p>
-            <p>Premiere Pro</p>
-            <p>Lightroom</p>
           </div>
         </div>
       </div>
