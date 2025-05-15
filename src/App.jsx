@@ -3,6 +3,7 @@ import "./index.css";
 import Projects from "./Pages/Projects";
 import About from "./Pages/About";
 import BookingHub from "./Pages/BookingHub";
+import BookingHubApp from "./Pages/BookingHubApp";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/bookinghub" element={<BookingHub />} />
+          <Route path="/bookinghubapp" element={<BookingHubApp />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
         </Routes>

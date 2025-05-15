@@ -3,22 +3,20 @@ import Video from "../components/Video";
 import Title from "../components/Title";
 import Services from "../components/Services";
 
-function BookingHub() {
+function Marketino() {
   const serviceList = [
     "Identity Design",
     "Branding",
     "Packaging Design",
     "Art Direction",
-    "UI/UX Design",
-  ];
-  
+  ]; 
   return (
     <div className="px-[205px]">
       <Video />
-      <Title text={"Booking Hub"} />
+      <Title text={"Marketino"} />
       <Services services={serviceList} />
     </div>
   );
 }
 
-export default BookingHub;
+export default Marketino;

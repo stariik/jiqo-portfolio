@@ -3,7 +3,7 @@ import Video from "../components/Video";
 import Title from "../components/Title";
 import Services from "../components/Services";
 
-function BookingHub() {
+function BookingHubApp() {
   const serviceList = [
     "Identity Design",
     "Branding",
@@ -11,14 +11,15 @@ function BookingHub() {
     "Art Direction",
     "UI/UX Design",
   ];
-  
+
   return (
     <div className="px-[205px]">
       <Video />
-      <Title text={"Booking Hub"} />
+      <Title text={"Booking Hub App"} />
       <Services services={serviceList} />
     </div>
   );
 }
 
-export default BookingHub;
+export default BookingHubApp;
+ 
