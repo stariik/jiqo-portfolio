@@ -1,8 +1,10 @@
 import React from "react";
+import Download from "../components/Download";
 
 function About() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-start px-9 py-10">
+    <div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-start px-9 py-6">
       <div className="flex justify-center">
         <img
           src="/images/jiqo.png"
@@ -46,20 +48,9 @@ function About() {
         </div>
       </div>
     </div>
+      <Download />
+    </div>
   );
 }
 
 export default About;
-
-{
-  /* <div className='grid grid-cols-2 w-4xl mx-auto pt-32'>
-<div className='h-[577px]'>
-    <img src='../../images/jiqo.png' className="h-[577px] rounded-xl"/>
-</div>
-<div className='bg-black'>
-    <div>
-        
-    </div>
-</div>
-</div> */
-}
