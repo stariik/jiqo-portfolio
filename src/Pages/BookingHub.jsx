@@ -50,7 +50,11 @@ function BookingHub() {
         </p>
       </div>
       <div>
-        <Fgrid />
+        <Fgrid
+          image1={"../../images/bookinghub/booking1.png"}
+          image2={"../../images/bookinghub/booking2.png"}
+          image3={"../../images/bookinghub/booking3.png"}
+        />
       </div>
     </div>
   );
