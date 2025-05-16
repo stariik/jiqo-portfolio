@@ -1,7 +1,8 @@
- import React from "react";
+import React from "react";
 import Video from "../components/Video";
 import Title from "../components/Title";
 import Services from "../components/Services";
+import Fgrid from "../components/Fgrid";
 
 function BookingHub() {
   const serviceList = [
@@ -11,7 +12,7 @@ function BookingHub() {
     "Art Direction",
     "UI/UX Design",
   ];
-  
+
   return (
     <div className="px-[205px]">
       <Video />
@@ -47,6 +48,9 @@ function BookingHub() {
           conveys the brand’s values. Its minimal yet powerful design builds
           strong recognition and enhances customer trust and brand success.
         </p>
+      </div>
+      <div>
+        <Fgrid />
       </div>
     </div>
   );
