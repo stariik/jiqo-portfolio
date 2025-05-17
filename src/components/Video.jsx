@@ -3,7 +3,7 @@ import React from "react";
 function Video() {
   return (
     <div>
-      <div className="h-[690px] w-[1509px] bg-gray-300 mx-auto mt-16 rounded-xl">
+      <div className="h-[690px] w-full bg-gray-300 mx-auto mt-16 rounded-xl">
         <video
           src="public/videos/Sequence_01.mp4"
           autoplay

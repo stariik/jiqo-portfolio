@@ -3,6 +3,7 @@ import Video from "../components/Video";
 import Title from "../components/Title";
 import Services from "../components/Services";
 import Fgrid from "../components/Fgrid";
+import FourGrid from "../components/FourGrid";
 
 function BookingHub() {
   const serviceList = [
@@ -14,7 +15,7 @@ function BookingHub() {
   ];
 
   return (
-    <div className="px-[205px]">
+    <div className="px-[50px] sm:px-[145px] md:px-[245px] grid">
       <Video />
       <Title text={"Booking Hub"} />
       <Services services={serviceList} />
@@ -54,6 +55,94 @@ function BookingHub() {
           image1={"../../images/bookinghub/booking1.png"}
           image2={"../../images/bookinghub/booking2.png"}
           image3={"../../images/bookinghub/booking3.png"}
+        />
+        <img
+          src="public/images/bookinghub/booking4.png"
+          alt=""
+          className="w-full rounded-xl object-cover"
+        />
+        <div className="grid grid-cols-5 gap-4 mt-6">
+          <img
+            src="public/images/bookinghub/booking5.png"
+            alt=""
+            className="rounded-xl col-span-2"
+          />
+          <div className="col-span-2 grid grid-cols-2 gap-2 md:gap-4">
+            <div className="bg-[#DC4E4E] w-full rounded-xl relative">
+              <div className="absolute bottom-6 left-6 text-white text-sm leading-tight">
+                <p>#DC4E4E</p>
+                <p>R G B: 220 78 78</p>
+                <p>C Y M K: 0 65 65 14</p>
+              </div>
+            </div>
+
+            <div className="bg-[#EAB24B] w-full rounded-xl relative">
+              <div className="absolute bottom-6 left-6 text-white text-sm leading-tight">
+                <p>#EAB24B</p>
+                <p>R G B: 234 178 75</p>
+                <p>C Y M K: 0 24 68 8</p>
+              </div>
+            </div>
+
+            <div className="bg-[#31334C] w-full rounded-xl relative">
+              <div className="absolute bottom-6 left-6 text-white text-sm leading-tight">
+                <p>#31334C</p>
+                <p>R G B: 49 51 76</p>
+                <p>C Y M K: 36 33 0 70</p>
+              </div>
+            </div>
+
+            <div className="bg-[#D8D8D8] w-full rounded-xl relative">
+              <div className="absolute bottom-6 left-6 text-black text-sm leading-tight">
+                <p>#D8D8D8</p>
+                <p>R G B: 216 216 216</p>
+                <p>C Y M K: 0 0 0 15</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="public/images/bookinghub/booking6.png"
+          alt=""
+          className="w-full rounded-xl mt-4 object-cover"
+        />
+        <FourGrid
+          image1={"public/images/bookinghub/booking7.png"}
+          image2={"public/images/bookinghub/booking8.png"}
+          image3={"public/images/bookinghub/booking9.png"}
+          image4={"public/images/bookinghub/booking10.png"}
+        />
+        <img
+          src="public/images/bookinghub/booking11.png"
+          alt=""
+          className="w-full rounded-xl mt-4 object-cover"
+        />
+        <img
+          src="public/images/bookinghub/booking12.png"
+          alt=""
+          className="w-full rounded-xl mt-4 object-cover"
+        />
+        <img
+          src="public/images/bookinghub/booking13.png"
+          alt=""
+          className="w-full rounded-xl mt-4 object-cover"
+        />
+        <div className="grid grid-cols-2 gap-4 mt-4">
+          <img
+            src="public/images/bookinghub/booking14.png"
+            alt=""
+            className="rounded-xl object-cover"
+          />
+          <img
+            src="public/images/bookinghub/booking15.png"
+            alt=""
+            className="rounded-xl object-cover"
+          />
+        </div>
+        <img
+          src="public/images/bookinghub/booking16.png"
+          alt=""
+          className="w-full rounded-xl mt-4 object-cover"
         />
       </div>
     </div>
