@@ -54,7 +54,7 @@ function Marketino() {
           <img
             src="../../images/marketino/marketino4.png"
             alt=""
-            className="object-cover rounded-xl shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-h-[671px]"
+            className="object-cover rounded-xl shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
           />
           <img
             src="../../images/marketino/marketino5.png"
@@ -62,41 +62,41 @@ function Marketino() {
             className="object-cover rounded-xl shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
           />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 mt-2 md:mt-8">
-          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[460px]">
-            <div className="absolute bottom-4 left-4 text-white text-xs leading-tight">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-2 md:mt-8">
+          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[500px]">
+            <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #220659
               <br />
               R G B: 34 6 89
               <br />C Y M K: 62 93 0 65
             </div>
           </div>
-          <div className="bg-[#0D3677] rounded-xl relative h-32 md:h-[460px]">
-            <div className="absolute bottom-4 left-4 text-white text-xs leading-tight">
+          <div className="bg-[#0D3677] rounded-xl relative h-32 md:h-[500px]">
+            <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #0D3677
               <br />
               R G B: 13 54 119
               <br />C Y M K: 89 55 0 53
             </div>
           </div>
-          <div className="bg-[#087AFD] rounded-xl relative h-32 md:h-[460px]">
-            <div className="absolute bottom-4 left-4 text-white text-xs leading-tight">
+          <div className="bg-[#087AFD] rounded-xl relative h-32 md:h-[500px]">
+            <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #087AFD
               <br />
               R G B: 8 122 253
               <br />C Y M K: 97 52 0 1
             </div>
           </div>
-          <div className="bg-[#FFFFFF] rounded-xl relative h-32 md:h-[460px]">
-            <div className="absolute bottom-4 left-4 text-black text-xs leading-tight">
+          <div className="bg-[#FFFFFF] rounded-xl relative h-32 md:h-[500px] shadow-[0_0_20px_rgba(0,0,0,0.2)] ">
+            <div className="absolute bottom-8 left-6 text-black text-xs leading-tight">
               #FFFFFF
               <br />
               R G B: 255 255 255
               <br />C Y M K: 0 0 0 0
             </div>
           </div>
-          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[460px]">
-            <div className="absolute bottom-4 left-4 text-white text-xs leading-tight">
+          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[500px]">
+            <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #220659
               <br />
               R G B: 34 6 89
@@ -104,27 +104,32 @@ function Marketino() {
             </div>
           </div>
         </div>
+        {/* 32 px dashoreba */}
         <img
           src="public/images/marketino/marketino7.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover max-h-[700px]"
+          className="w-full rounded-xl mt-8 object-cover max-h-[700px]"
         />
+        {/* 24 px dashoreba */}
+
         <img
           src="public/images/marketino/marketino8.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover max-h-[800px]"
+          className="w-full rounded-xl mt-6 object-cover max-h-[800px]"
         />
+        {/* 24 px dashoreba */}
+ 
         <img
           src="public/images/marketino/marketino9.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover max-h-[1000px]"
+          className="w-full rounded-xl mt-6 object-cover max-h-[1000px]"
         />
         <img
           src="public/images/marketino/marketino10.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover max-h-[1100px]"
+          className="w-full rounded-xl mt-6 object-cover max-h-[1100px]"
         />
-        <div className="grid md:grid-cols-5 gap-2 md:gap-8 mt-2 md:mt-4">
+        <div className="grid md:grid-cols-5 gap-2 md:gap-6 mt-2 md:mt-6">
           <img src="public/images/marketino/marketino11.png" alt="" className="rounded-xl col-span-2"/>
           <img src="public/images/marketino/marketino12.png" alt="" className="rounded-xl col-span-3"/>
         </div>

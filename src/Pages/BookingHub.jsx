@@ -100,11 +100,16 @@ function BookingHub() {
               </div>
             </div>
           </div>
+          <img
+            src="public/images/bookinghub/wilifon.png"
+            alt=""
+            className="max-h-[556px] rounded-[15px] border-4 border-[#31334c]"
+          />
         </div>
         <img
           src="public/images/bookinghub/booking6.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover"
+          className="w-full rounded-xl mt-4 md:mt-8 object-cover"
         />
         <FourGrid
           image1={"public/images/bookinghub/booking7.png"}
@@ -115,19 +120,19 @@ function BookingHub() {
         <img
           src="public/images/bookinghub/booking11.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover"
+          className="w-full rounded-xl mt-6 object-cover"
         />
         <img
           src="public/images/bookinghub/booking12.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover"
+          className="w-full rounded-xl mt-6 object-cover"
         />
         <img
           src="public/images/bookinghub/booking13.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover"
+          className="w-full rounded-xl mt-6 object-cover"
         />
-        <div className="grid grid-cols-2 gap-4 mt-4">
+        <div className="grid grid-cols-2 gap-6 mt-6">
           <img
             src="public/images/bookinghub/booking14.png"
             alt=""
@@ -142,7 +147,7 @@ function BookingHub() {
         <img
           src="public/images/bookinghub/booking16.png"
           alt=""
-          className="w-full rounded-xl mt-4 object-cover"
+          className="w-full rounded-xl mt-6 object-cover"
         />
       </div>
     </div>
