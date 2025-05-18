@@ -12,7 +12,7 @@ function Marketino() {
     "Art Direction",
   ];
   return (
-    <div className="px-[50px] sm:px-[145px] md:px-[245px] md:px-[361px]">
+    <div className="px-[50px] sm:px-[145px] md:px-[361px]">
       <Video />
       <Title text={"Marketino"} />
       <Services services={serviceList} />
@@ -95,14 +95,11 @@ function Marketino() {
               <br />C Y M K: 0 0 0 0
             </div>
           </div>
-          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[460px]">
-            <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
-              #220659
-              <br />
-              R G B: 34 6 89
-              <br />C Y M K: 62 93 0 65
-            </div>
-          </div>
+          <img
+            src="../../images/marketino/wilifon.png"
+            alt=""
+            className="rounded-[15px] border-4 border-[#31334c] h-full"
+          />
         </div>
         {/* 32 px dashoreba */}
         <img
@@ -118,7 +115,7 @@ function Marketino() {
           className="w-full rounded-xl mt-6 object-cover max-h-[800px]"
         />
         {/* 24 px dashoreba */}
- 
+
         <img
           src="public/images/marketino/marketino9.png"
           alt=""
@@ -130,10 +127,22 @@ function Marketino() {
           className="w-full rounded-xl mt-6 object-cover max-h-[1100px]"
         />
         <div className="grid md:grid-cols-5 gap-2 md:gap-6 mt-2 md:mt-6">
-          <img src="public/images/marketino/marketino11.png" alt="" className="rounded-xl col-span-2"/>
-          <img src="public/images/marketino/marketino12.png" alt="" className="rounded-xl col-span-3"/>
+          <img
+            src="public/images/marketino/marketino11.png"
+            alt=""
+            className="rounded-xl col-span-2"
+          />
+          <img
+            src="public/images/marketino/marketino12.png"
+            alt=""
+            className="rounded-xl col-span-3"
+          />
         </div>
-        <img src="public/images/marketino/marketino13.png" alt="" className="rounded-xl mt-2 md:mt-6 mb-40"/>
+        <img
+          src="public/images/marketino/marketino13.png"
+          alt=""
+          className="rounded-xl mt-2 md:mt-6 mb-40"
+        />
       </div>
     </div>
   );
