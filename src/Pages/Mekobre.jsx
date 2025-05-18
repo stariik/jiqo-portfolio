@@ -2,11 +2,12 @@ import React from "react";
 import Video from "../components/Video";
 import Title from "../components/Title";
 import Services from "../components/Services";
+import Fgrid from "../components/Fgrid";
 
 function Mekobre() {
   const serviceList = ["Identity Design", "Branding", "Art Direction"];
   return (
-    <div className="px-[205px]">
+    <div className="px-[50px] sm:px-[145px] md:px-[361px]">
       <Video />
       <Title text={"Mekobre"} />
       <Services services={serviceList} />
@@ -49,6 +50,78 @@ function Mekobre() {
           in their native language.
         </p>
       </div>
+      <Fgrid
+        image1={"../../images/mekobre/m1.png"}
+        image2={"../../images/mekobre/m2.png"}
+        image3={"../../images/mekobre/m3.png"}
+      />
+      <img
+        src="../../images/mekobre/m4.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
+      <img
+        src="../../images/mekobre/m5.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
+      <div className="grid grid-cols-2 gap-2 md:gap-6">
+        <img
+          src="../../images/mekobre/m6.png"
+          alt=""
+          className="mt-2 md:mt-6 rounded-xl"
+        />
+        <img
+          src="../../images/mekobre/m7.png"
+          alt=""
+          className="mt-2 md:mt-6 rounded-xl"
+        />
+        <img
+          src="../../images/mekobre/m8.png"
+          alt=""
+          className="mt-2 md:mt-6 rounded-xl"
+        />
+        <img
+          src="../../images/mekobre/m9.png"
+          alt=""
+          className="mt-2 md:mt-6 rounded-xl"
+        />
+      </div>
+      <img
+        src="../../images/mekobre/m10.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
+      <img
+        src="../../images/mekobre/m11.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
+      <img
+        src="../../images/mekobre/m12.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
+      <img
+        src="../../images/mekobre/m13.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
+      <img
+        src="../../images/mekobre/m14.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
+      <img
+        src="../../images/mekobre/m15.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
+      <img
+        src="../../images/mekobre/m16.png"
+        alt=""
+        className="mt-2 md:mt-6 rounded-xl"
+      />
     </div>
   );
 }

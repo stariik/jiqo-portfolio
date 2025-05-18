@@ -8,12 +8,14 @@ import Marketino from "./Pages/Marketino";
 import Mekobre from "./Pages/Mekobre";
 import Trustster from "./Pages/Trustster";
 import TeaCorner from "./Pages/TeaCorner";
+import VisualPlayground from "./Pages/VisualPlayground";
 
 function App() {
   return (
     <div>
       <Router>
         <Routes>
+          <Route path="/visualplayground" element={<VisualPlayground />} />
           <Route path="/marketino" element={<Marketino />} />
           <Route path="/mekobre" element={<Mekobre />} />
           <Route path="/teacorner" element={<TeaCorner />} />

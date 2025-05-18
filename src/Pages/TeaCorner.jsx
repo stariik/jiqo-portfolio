@@ -13,7 +13,7 @@ function TeaCorner() {
   ];
 
   return (
-    <div className="px-[205px]">
+    <div className="px-[50px] sm:px-[145px] md:px-[245px] md:px-[361px]">
       <Video />
       <Title text={"Tea Corner"} />
       <Services services={serviceList} />

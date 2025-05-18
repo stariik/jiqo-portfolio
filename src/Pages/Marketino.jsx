@@ -12,7 +12,7 @@ function Marketino() {
     "Art Direction",
   ];
   return (
-    <div className="px-[50px] sm:px-[145px] md:px-[245px]">
+    <div className="px-[50px] sm:px-[145px] md:px-[245px] md:px-[361px]">
       <Video />
       <Title text={"Marketino"} />
       <Services services={serviceList} />
@@ -63,7 +63,7 @@ function Marketino() {
           />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-2 md:mt-8">
-          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[500px]">
+          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[460px]">
             <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #220659
               <br />
@@ -71,7 +71,7 @@ function Marketino() {
               <br />C Y M K: 62 93 0 65
             </div>
           </div>
-          <div className="bg-[#0D3677] rounded-xl relative h-32 md:h-[500px]">
+          <div className="bg-[#0D3677] rounded-xl relative h-32 md:h-[460px]">
             <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #0D3677
               <br />
@@ -79,7 +79,7 @@ function Marketino() {
               <br />C Y M K: 89 55 0 53
             </div>
           </div>
-          <div className="bg-[#087AFD] rounded-xl relative h-32 md:h-[500px]">
+          <div className="bg-[#087AFD] rounded-xl relative h-32 md:h-[460px]">
             <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #087AFD
               <br />
@@ -87,7 +87,7 @@ function Marketino() {
               <br />C Y M K: 97 52 0 1
             </div>
           </div>
-          <div className="bg-[#FFFFFF] rounded-xl relative h-32 md:h-[500px] shadow-[0_0_20px_rgba(0,0,0,0.2)] ">
+          <div className="bg-[#FFFFFF] rounded-xl relative h-32 md:h-[460px] shadow-[0_0_20px_rgba(0,0,0,0.2)] ">
             <div className="absolute bottom-8 left-6 text-black text-xs leading-tight">
               #FFFFFF
               <br />
@@ -95,7 +95,7 @@ function Marketino() {
               <br />C Y M K: 0 0 0 0
             </div>
           </div>
-          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[500px]">
+          <div className="bg-[#220659] rounded-xl relative h-32 md:h-[460px]">
             <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #220659
               <br />

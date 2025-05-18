@@ -1,15 +1,61 @@
 import React from "react";
 
-function ColorCard({ title, hex, bgColor = "#fff", textColor = "#000" }) {
+function ColorCard({ title, bgcolor, hex, textColor = "#ffffff", shadow = false }) {
   return (
     <div
-      className="rounded-[15px] border border-[#31334c] w-32 h-24 flex flex-col justify-center px-3 py-2 shadow-[0_0_20px_rgba(0,0,0,0.1)]"
-      style={{ backgroundColor: bgColor, color: textColor }}
+      className={`rounded-[15px] h-[113px] px-4 py-6 flex flex-col justify-between ${
+        shadow ? "shadow-[0_0_20px_rgba(0,0,0,0.2)]" : ""
+      }`}
+      style={{ backgroundColor: bgcolor, color: textColor }}
     >
-      <div className="text-sm font-medium">{title}</div>
-      <div className="text-[10px] mt-1">HEX {hex}</div>
+      <div className="text-[16px] font-medium">{title}</div>
+      <div className="text-[14px]">HEX #{hex}</div>
     </div>
   );
 }
 
 export default ColorCard;
+
+
+
+{/* <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Button</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+        <div className="rounded-[15px] bg-[#222222] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Accent</div>
+          <div className="text-[14px] text-white">HEX #222222</div>
+        </div>
+        <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Accent</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+        <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Background</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+        <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Button background</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+        <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Header text</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+        <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Text</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+        <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Secondary text</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+        <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Border</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+        <div className="rounded-[15px] bg-[#FF6666] h-[113px] px-4 py-6 flex flex-col justify-between">
+          <div className="text-[16px] font-medium text-white">Error</div>
+          <div className="text-[14px] text-white">HEX #FF6666</div>
+        </div>
+      </div> */} 

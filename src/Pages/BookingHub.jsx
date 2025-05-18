@@ -15,7 +15,7 @@ function BookingHub() {
   ];
 
   return (
-    <div className="px-[50px] sm:px-[145px] md:px-[245px] grid">
+    <div className="px-[50px] sm:px-[145px] md:px-[361px]">
       <Video />
       <Title text={"Booking Hub"} />
       <Services services={serviceList} />
