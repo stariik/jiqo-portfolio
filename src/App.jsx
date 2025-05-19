@@ -9,6 +9,7 @@ import Mekobre from "./Pages/Mekobre";
 import Trustster from "./Pages/Trustster";
 import TeaCorner from "./Pages/TeaCorner";
 import VisualPlayground from "./Pages/VisualPlayground";
+import Home from "./Pages/Home";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           <Route path="/bookinghubapp" element={<BookingHubApp />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          
         </Routes>
       </Router>
     </div>
