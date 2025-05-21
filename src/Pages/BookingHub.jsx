@@ -103,7 +103,7 @@ function BookingHub() {
             </div>
           </div>
           <img
-            src="public/images/bookinghub/wilifon.png"
+            src="/images/bookinghub/wilifon.png"
             alt=""
             className="max-h-[556px] rounded-[15px] border-4 border-[#31334c]"
           />
@@ -114,40 +114,40 @@ function BookingHub() {
           className="w-full rounded-xl mt-4 md:mt-8 object-cover"
         />
         <FourGrid
-          image1={"public/images/bookinghub/booking7.png"}
-          image2={"public/images/bookinghub/booking8.png"}
-          image3={"public/images/bookinghub/booking9.png"}
-          image4={"public/images/bookinghub/booking10.png"}
+          image1={"/images/bookinghub/booking7.png"}
+          image2={"/images/bookinghub/booking8.png"}
+          image3={"/images/bookinghub/booking9.png"}
+          image4={"/images/bookinghub/booking10.png"}
         />
         <img
-          src="public/images/bookinghub/booking11.png"
+          src="/images/bookinghub/booking11.png"
           alt=""
           className="w-full rounded-xl mt-6 object-cover"
         />
         <img
-          src="public/images/bookinghub/booking12.png"
+          src="/images/bookinghub/booking12.png"
           alt=""
           className="w-full rounded-xl mt-6 object-cover"
         />
         <img
-          src="public/images/bookinghub/booking13.png"
+          src="/images/bookinghub/booking13.png"
           alt=""
           className="w-full rounded-xl mt-6 object-cover"
         />
         <div className="grid grid-cols-2 gap-6 mt-6">
           <img
-            src="public/images/bookinghub/booking14.png"
+            src="/images/bookinghub/booking14.png"
             alt=""
             className="rounded-xl object-cover"
           />
           <img
-            src="public/images/bookinghub/booking15.png"
+            src="/images/bookinghub/booking15.png"
             alt=""
             className="rounded-xl object-cover"
           />
         </div>
         <img
-          src="public/images/bookinghub/booking16.png"
+          src="/images/bookinghub/booking16.png"
           alt=""
           className="w-full rounded-xl mt-6 object-cover"
         />

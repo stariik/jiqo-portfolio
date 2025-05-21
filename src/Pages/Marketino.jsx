@@ -105,43 +105,43 @@ function Marketino() {
         </div>
         {/* 32 px dashoreba */}
         <img
-          src="public/images/marketino/marketino7.png"
+          src="/images/marketino/marketino7.png"
           alt=""
           className="w-full rounded-xl mt-8 object-cover max-h-[700px]"
         />
         {/* 24 px dashoreba */}
 
         <img
-          src="public/images/marketino/marketino8.png"
+          src="/images/marketino/marketino8.png"
           alt=""
           className="w-full rounded-xl mt-6 object-cover max-h-[800px]"
         />
         {/* 24 px dashoreba */}
 
         <img
-          src="public/images/marketino/marketino9.png"
+          src="/images/marketino/marketino9.png"
           alt=""
           className="w-full rounded-xl mt-6 object-cover max-h-[1000px]"
         />
         <img
-          src="public/images/marketino/marketino10.png"
+          src="/images/marketino/marketino10.png"
           alt=""
           className="w-full rounded-xl mt-6 object-cover max-h-[1100px]"
         />
         <div className="grid md:grid-cols-5 gap-2 md:gap-6 mt-2 md:mt-6">
           <img
-            src="public/images/marketino/marketino11.png"
+            src="/images/marketino/marketino11.png"
             alt=""
             className="rounded-xl col-span-2"
           />
           <img
-            src="public/images/marketino/marketino12.png"
+            src="/images/marketino/marketino12.png"
             alt=""
             className="rounded-xl col-span-3"
           />
         </div>
         <img
-          src="public/images/marketino/marketino13.png"
+          src="/images/marketino/marketino13.png"
           alt=""
           className="rounded-xl mt-2 md:mt-6 mb-40"
         />
