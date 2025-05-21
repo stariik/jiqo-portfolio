@@ -8,7 +8,9 @@ function Trustster() {
   const serviceList = ["Identity Design", "UI/UX Design"];
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[361px]">
-      <Video />
+      <Video
+        source={"/videos/TRUSTSTER.mp4"}
+      />
       <Title text={"Trustster"} />
       <Services services={serviceList} />
       <div>

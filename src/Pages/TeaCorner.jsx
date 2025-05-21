@@ -14,7 +14,9 @@ function TeaCorner() {
 
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[245px] md:px-[361px]">
-      <Video />
+      <Video
+        source={"/videos/Tea Corner.mp4"}
+      />
       <Title text={"Tea Corner"} />
       <Services services={serviceList} />
       <div className="mt-4">

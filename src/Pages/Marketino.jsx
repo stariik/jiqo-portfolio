@@ -13,7 +13,9 @@ function Marketino() {
   ];
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[361px]">
-      <Video />
+      <Video
+        source={"/videos/Marketino.mp4"}
+      />
       <Title text={"Marketino"} />
       <Services services={serviceList} />
       <div className="mt-4">

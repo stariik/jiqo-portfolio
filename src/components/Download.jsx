@@ -56,13 +56,18 @@ function LanguagePopup({ onClose }) {
       >
         <h2 className="text-lg font-semibold mb-4">Language</h2>
         <div className="flex justify-between gap-4">
-          {['Georgian', 'English'].map((lang) => (
-            <button
+          {[
+            { lang: "Georgian", file: "/downloads/Geo.pdf" },
+            { lang: "English", file: "/downloads/Eng.pdf" },
+          ].map(({ lang, file }) => (
+            <a
               key={lang}
+              href={file}
+              download
               className="flex-1 bg-gray-200 hover:bg-gray-300 py-3 rounded-xl text-sm font-medium flex items-center justify-center gap-2"
             >
               {lang} <LuDownload className="w-4 h-4" />
-            </button>
+            </a>
           ))}
         </div>
       </div>
@@ -80,7 +85,7 @@ function Download() {
         onClick={() => setShowPopup(true)}
         className="flex items-center justify-center gap-2 bg-gray-200 hover:bg-gray-300 text-black font-medium py-4 px-20 rounded-xl transition"
       >
-        Download CV <LuDownload className="w-5 h-5" />
+        Download resume <LuDownload className="w-5 h-5" />
       </button>
       {showPopup && <LanguagePopup onClose={() => setShowPopup(false)} />}
     </div>

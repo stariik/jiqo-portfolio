@@ -15,7 +15,9 @@ function BookingHubApp() {
 
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[361px]">
-      <Video />
+      <Video
+        source={"/videos/Bookinghub app.mp4"}
+      />
       <Title text={"Booking Hub App"} />
       <Services services={serviceList} />
       <div>

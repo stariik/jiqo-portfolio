@@ -8,7 +8,9 @@ import FourGrid from "../components/FourGrid";
 function VisualPlayground() {
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[361px]">
-      <Video />
+      <Video
+        source={"/videos/Visual Playground.mp4"}
+      />
       <p className="mt-2 md:mt-8">
         A curated mix of visuals — from real client projects to personal design
         explorations.

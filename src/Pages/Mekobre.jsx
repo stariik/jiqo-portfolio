@@ -8,7 +8,9 @@ function Mekobre() {
   const serviceList = ["Identity Design", "Branding", "Art Direction"];
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[361px]">
-      <Video />
+      <Video
+        source={"/videos/Mekobre.mp4"}
+      />
       <Title text={"Mekobre"} />
       <Services services={serviceList} />
       <div>
