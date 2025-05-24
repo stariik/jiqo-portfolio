@@ -105,7 +105,7 @@ function BookingHub() {
           <img
             src="/images/bookinghub/wilifon.png"
             alt=""
-            className="max-h-[556px] rounded-[15px] border-4 border-[#31334c]"
+            className="max-h-[556px] rounded-[15px] border-[#31334c]"
           />
         </div>
         <img
