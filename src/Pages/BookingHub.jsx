@@ -59,13 +59,13 @@ function BookingHub() {
           image3={"../../images/bookinghub/booking3.png"}
         />
         <img
-          src="public/images/bookinghub/booking4.png"
+          src="/images/bookinghub/booking4.png"
           alt=""
           className="w-full rounded-xl object-cover"
         />
         <div className="grid grid-cols-5 gap-4 mt-6">
           <img
-            src="public/images/bookinghub/booking5.png"
+            src="/images/bookinghub/booking5.png"
             alt=""
             className="rounded-xl col-span-2"
           />
@@ -109,7 +109,7 @@ function BookingHub() {
           />
         </div>
         <img
-          src="public/images/bookinghub/booking6.png"
+          src="/images/bookinghub/booking6.png"
           alt=""
           className="w-full rounded-xl mt-4 md:mt-8 object-cover"
         />
