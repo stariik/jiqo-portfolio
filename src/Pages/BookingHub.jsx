@@ -16,12 +16,10 @@ function BookingHub() {
 
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[361px]">
-      <Video
-        source={"/videos/Bookinghub.mp4"}
-      />
+      <Video source={"/videos/Bookinghub.mp4"} />
       <Title text={"Booking Hub"} />
       <Services services={serviceList} />
-      <div className="mt-4">
+      <div className="mt-8">
         <p className="text-lg">
           BookingHub is a modern online booking platform that enables users to
           book services easily and efficiently. The platform integrates various
@@ -58,17 +56,21 @@ function BookingHub() {
           image2={"../../images/bookinghub/booking2.png"}
           image3={"../../images/bookinghub/booking3.png"}
         />
+
         <img
           src="/images/bookinghub/booking4.png"
           alt=""
-          className="w-full rounded-xl object-cover"
+          className="w-full rounded-xl object-cover mt-6"
         />
-        <div className="grid grid-cols-5 gap-4 mt-6">
-          <img
-            src="/images/bookinghub/booking5.png"
-            alt=""
-            className="rounded-xl col-span-2"
-          />
+        <div className="grid grid-cols-5 gap-6 mt-6">
+          <div className="rounded-xl col-span-2 ">
+            <img
+              src="/images/bookinghub/booking5.png"
+              alt=""
+              className="rounded-xl"
+            />
+          </div>
+
           <div className="col-span-2 grid grid-cols-2 gap-2 md:gap-4">
             <div className="bg-[#DC4E4E] w-full rounded-xl relative">
               <div className="absolute bottom-6 left-6 text-white text-sm leading-tight">
@@ -149,7 +151,7 @@ function BookingHub() {
         <img
           src="/images/bookinghub/booking16.png"
           alt=""
-          className="w-full rounded-xl mt-6 object-cover"
+          className="w-full rounded-xl mt-6 object-cover mb-16"
         />
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Video({ source }) {
   return (
-    <div className="container mx-auto mt-16">
+    <div className="container mx-auto mt-8">
       <div className="relative overflow-hidden rounded-xl bg-gray-300 shadow-lg w-full">
         <video
           autoPlay
