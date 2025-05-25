@@ -52,7 +52,7 @@ function Marketino() {
           image2={"../../images/marketino/marketino2.png"}
           image3={"../../images/marketino/marketino3.png"}
         />
-        <div className="grid grid-cols-2 gap-2">
+        <div className="grid grid-cols-2 gap-6 mt-6">
           <img
             src="../../images/marketino/marketino4.png"
             alt=""
@@ -64,7 +64,7 @@ function Marketino() {
             className="object-cover rounded-xl shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
           />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-2 md:mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-2 md:mt-6">
           <div className="bg-[#220659] rounded-xl relative h-32 md:h-[460px]">
             <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #220659
@@ -143,7 +143,7 @@ function Marketino() {
         <img
           src="/images/marketino/marketino13.png"
           alt=""
-          className="rounded-xl mt-2 md:mt-6 mb-40"
+          className="rounded-xl mt-2 md:mt-6 mb-16"
         />
       </div>
     </div>
