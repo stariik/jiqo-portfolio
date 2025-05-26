@@ -7,7 +7,7 @@ import Fgrid from "../components/Fgrid";
 function Mekobre() {
   const serviceList = ["Identity Design", "Branding", "Art Direction"];
   return (
-    <div className="px-[50px] sm:px-[145px] md:px-[361px]">
+    <div className="px-[50px] sm:px-[145px] md:px-[361px] pb-16">
       <Video
         source={"/videos/Mekobre.mp4"}
       />
@@ -97,7 +97,7 @@ function Mekobre() {
       <img
         src="../../images/mekobre/m11.png"
         alt=""
-        className="mt-2 md:mt-6 rounded-xl"
+        className="mt-2 md:mt-8 rounded-xl"
       />
       <img
         src="../../images/mekobre/m12.png"

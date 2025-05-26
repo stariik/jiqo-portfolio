@@ -40,10 +40,10 @@ function BookingHubApp() {
       <img
         src="../../images/bookinghubapp/bapp1.png"
         alt=""
-        className="rounded-xl mt-6 w-full"
+        className="rounded-xl mt-8 w-full"
       />
       <div className="grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-6 mt-2 md:mt-6">
-         
+        <ColorCard title={"Button"} bgcolor={"#FF6666"} hex={"FF6666"} />
         <ColorCard title={"Accent"} bgcolor={"#222222"} hex={"222222"} />
         <ColorCard title={"Accent"} bgcolor={"#FF6666"} hex={"FF6666"} />
         <ColorCard
@@ -81,7 +81,7 @@ function BookingHubApp() {
       <img
         src="../../images/bookinghubapp/bapp2.png"
         alt=""
-        className="rounded-xl mt-6 w-full"
+        className="rounded-xl mt-8 w-full"
       />
       <img
         src="../../images/bookinghubapp/bapp3.png"
@@ -103,7 +103,7 @@ function BookingHubApp() {
         alt=""
         className="rounded-xl mt-6 w-full"
       />
-      <p className="mt-6">
+      <p className="mt-8 mb-16">
         "Thank you for exploring my UX/UI case study for BookingHub.ge. The
         website is live at www.bookinghub.ge, offering a seamless booking
         experience for various services. The mobile application is currently in

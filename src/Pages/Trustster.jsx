@@ -32,7 +32,7 @@ function Trustster() {
       <img
         src="../../images/trustster/tr1.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-6"
+        className="rounded-xl mt-2 md:mt-8"
       />
       <div className="grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-6 mt-2 md:mt-6">
         <ColorCard title={"Button"} bgcolor={"#CB3CFF"} hex={"CB3CFF"} />
@@ -85,7 +85,7 @@ function Trustster() {
       <img
         src="../../images/trustster/tr2.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-6"
+        className="rounded-xl mt-2 md:mt-8"
       />
       <img
         src="../../images/trustster/tr3.png"
@@ -173,7 +173,7 @@ function Trustster() {
         alt=""
         className="rounded-xl mt-2 md:mt-6"
       />
-      <div className="my-4 md:my-8">
+      <div className="my-4 md:my-6">
         <p className="font-semibold">Mobile-Friendly Design</p>
         <p>
           Trustster is fully optimized for mobile devices. The interface remains

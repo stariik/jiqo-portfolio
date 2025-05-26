@@ -7,7 +7,7 @@ import FourGrid from "../components/FourGrid";
 
 function VisualPlayground() {
   return (
-    <div className="px-[50px] sm:px-[145px] md:px-[361px]">
+    <div className="px-[50px] sm:px-[145px] md:px-[361px] pb-16">
       <Video
         source={"/videos/Visual Playground.mp4"}
       />
@@ -22,7 +22,7 @@ function VisualPlayground() {
       <img
         src="../../images/visualplayground/v1.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-6"
+        className="rounded-xl mt-2 md:mt-8"
       />
       <div className="grid grid-cols-2 gap-2 md:gap-6 mt-2 md:mt-6">
         <img
