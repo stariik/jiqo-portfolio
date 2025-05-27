@@ -14,49 +14,48 @@ const ImageSlider = () => {
     "/images/PLAYGROUND.png",
   ];
   return (
-    <div className="">
+    <div className="border-[11px] border-[#EDEEED] rounded-xl w-[1171px] mx-auto bg-[#EDEEED]">
       <Slide
         vertical={true}
         autoplay={true}
         infinite={true}
-        pauseOnHover={true}
         canSwipe={true}
         transitionDuration={1200}
-        duration={1500}
+        duration={1200}
       >
         <div className="each-slide-effect ">
           <div
-            className="border-[11px] border-[#EDEEED] "
+            className=""
             style={{ backgroundImage: `url(${images[0]})` }}
           ></div>
         </div>
         <div className="each-slide-effect">
           <div
-            className="border-[11px] border-[#EDEEED]"
+            className=""
             style={{ backgroundImage: `url(${images[1]})` }}
           ></div>
         </div>
         <div className="each-slide-effect">
           <div
-            className="border-[11px] border-[#EDEEED]"
+            className=""
             style={{ backgroundImage: `url(${images[2]})` }}
           ></div>
         </div>
         <div className="each-slide-effect">
           <div
-            className="border-[11px] border-[#EDEEED]"
+            className=""
             style={{ backgroundImage: `url(${images[3]})` }}
           ></div>
         </div>
         <div className="each-slide-effect">
           <div
-            className="border-[11px] border-[#EDEEED]"
+            className=""
             style={{ backgroundImage: `url(${images[4]})` }}
           ></div>
         </div>
         <div className="each-slide-effect">
           <div
-            className="border-[11px] border-[#EDEEED]"
+            className=""
             style={{ backgroundImage: `url(${images[5]})` }}
           ></div>
         </div>
