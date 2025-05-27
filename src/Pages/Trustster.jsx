@@ -7,7 +7,7 @@ import ColorCard from "../components/ColorCard";
 function Trustster() {
   const serviceList = ["Identity Design", "UI/UX Design"];
   return (
-    <div className="px-[50px] sm:px-[145px] md:px-[361px]">
+    <div className="px-[50px] sm:px-[145px] md:px-[361px] mb-16">
       <Video source={"/videos/TRUSTSTER.mp4"} />
       <Title text={"Trustster"} />
       <Services services={serviceList} />
@@ -30,7 +30,7 @@ function Trustster() {
       <img
         src="../../images/trustster/tr1.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-8"
+        className="rounded-xl mt-2 md:mt-8 w-full"
       />
       <div className="grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-6 mt-2 md:mt-6">
         <ColorCard title={"Button"} bgcolor={"#CB3CFF"} hex={"CB3CFF"} />
@@ -79,7 +79,7 @@ function Trustster() {
           hex={"3C3636"}
         />
       </div>
-      
+
       <img
         src="../../images/trustster/trustster1.png"
         alt=""

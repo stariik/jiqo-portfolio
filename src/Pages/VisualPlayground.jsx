@@ -8,9 +8,7 @@ import FourGrid from "../components/FourGrid";
 function VisualPlayground() {
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[361px] pb-16 font-microRegular ">
-      <Video
-        source={"/videos/Visual Playground.mp4"}
-      />
+      <Video source={"/videos/Visual Playground.mp4"} />
       <p className="mt-2 md:mt-8">
         A curated mix of visuals — from real client projects to personal design
         explorations.
@@ -43,7 +41,7 @@ function VisualPlayground() {
         <img
           src="../../images/visualplayground/v5.png"
           alt=""
-          className="rounded-xl"
+          className="rounded-xl shadow-[0_0_20px_rgba(0,0,0,0.2)]"
         />
       </div>
       <img
@@ -120,17 +118,17 @@ function VisualPlayground() {
       <img
         src="../../images/visualplayground/v19.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-6"
+        className="rounded-xl mt-2 md:mt-6 shadow-[0_0_20px_rgba(0,0,0,0.2)]"
       />
       <img
         src="../../images/visualplayground/v20.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-6"
+        className="rounded-xl mt-2 md:mt-6 shadow-[0_0_20px_rgba(0,0,0,0.2)]"
       />
       <img
         src="../../images/visualplayground/v21.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-6"
+        className="rounded-xl mt-2 md:mt-6 shadow-[0_0_20px_rgba(0,0,0,0.2)]"
       />
       <img
         src="../../images/visualplayground/v22.png"
@@ -145,12 +143,12 @@ function VisualPlayground() {
       <img
         src="../../images/visualplayground/v24.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-6"
+        className="rounded-xl mt-2 md:mt-6 shadow-[0_0_20px_rgba(0,0,0,0.2)]"
       />
       <img
         src="../../images/visualplayground/v25.png"
         alt=""
-        className="rounded-xl mt-2 md:mt-6"
+        className="rounded-xl mt-2 md:mt-6 shadow-[0_0_20px_rgba(0,0,0,0.2)]"
       />
     </div>
   );
