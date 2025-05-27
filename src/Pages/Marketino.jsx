@@ -18,7 +18,7 @@ function Marketino() {
       />
       <Title text={"Marketino"} />
       <Services services={serviceList} />
-      <div className="mt-4">
+      <div className="mt-4 font-microRegular">  
         <p className="text-lg">
           Marketino is an innovative marketing company that provides strategic
           branding, digital advertising, and creative solutions. With a

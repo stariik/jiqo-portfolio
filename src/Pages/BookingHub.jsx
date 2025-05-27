@@ -20,19 +20,19 @@ function BookingHub() {
       <Title text={"Booking Hub"} />
       <Services services={serviceList} />
       <div className="mt-8">
-        <p className="text-lg">
+        <p className="text-lg font-microRegular">
           BookingHub is a modern online booking platform that enables users to
           book services easily and efficiently. The platform integrates various
           industries, offering an innovative experience and ensuring user
           convenience.
         </p>
-        <p className="font-semibold mt-4 mb-2 text-xl">Logo Concept</p>
-        <p className="text-lg">
+        <p className="font-microMedium mt-4 mb-2 text-xl">Logo Concept</p>
+        <p className="text-lg font-microRegular">
           The BookingHub logo is designed to be clear, memorable, and dynamic,
           representing the brand’s trustworthiness, accessibility, and
-          <span className="font-bold"> flexibility</span>
+          <span className="font-microMedium"> flexibility</span>
         </p>
-        <ul className="list-disc px-8 pt-2">
+        <ul className="list-disc px-8 pt-2 font-microRegular">
           <li>
             Letter "B" – Represents the first letter of the brand name, making
             it easy to identify and recognize.
@@ -42,7 +42,7 @@ function BookingHub() {
             platform’s core function.
           </li>
         </ul>
-        <p className="pt-8 text-lg ">
+        <p className="pt-8 text-lg font-microRegular ">
           The graphic design ensures that the logo remains minimalistic,
           adaptable, and versatile across different media, whether digital or
           physical. logo is a modern and effective visual identity that clearly

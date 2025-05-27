@@ -168,8 +168,8 @@ export default function Navbar() {
           setActive("work");
           navigate("/projects");
         }}
-        className={`ml-auto w-[123px] h-[54px] rounded-[15px] text-[22px] font-medium leading-[26px] flex items-center justify-center ${
-          active === "work" ? "bg-white text-black" : "bg-[#DDDEDC] text-black"
+        className={`font-textMedium ml-auto w-[123px] h-[54px] rounded-[15px] text-[22px] font-medium leading-[26px] transition-colors duration-300 cursor-pointer hover:bg-black hover:text-white flex items-center justify-center ${
+          active === "work" ? "bg-black text-white" : "bg-[#DDDEDC] text-black"
         }`}
       >
         Work
@@ -179,8 +179,8 @@ export default function Navbar() {
             setActive("about");
             navigate("/about");
           }}
-        className={`ml-2 w-[125px] h-[54px] rounded-[15px] text-[22px] font-medium leading-[26px] flex items-center justify-center ${
-          active === "about" ? "bg-white text-black" : "bg-[#DDDEDC] text-black"
+        className={`font-textMedium ml-2 w-[125px] h-[54px] rounded-[15px] text-[22px] font-medium leading-[26px] flex items-center transition-colors duration-300 cursor-pointer hover:bg-black hover:text-white  justify-center ${
+          active === "about" ? "bg-black text-white" : "bg-[#DDDEDC] text-black"
         }`}
       >
         About

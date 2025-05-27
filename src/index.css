@@ -1,1 +1,9 @@
+@import './assets/fonts/style.css';
 @import "tailwindcss";
+
+@theme {
+    --font-microRegular: 'Forma DJR Micro Regular', 'sans-serif';
+    --font-microMedium: 'Forma DJR Micro Medium', 'sans-serif';
+    --font-textMedium: 'Forma DJR Text Medium', 'sans-serif';
+
+}

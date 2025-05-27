@@ -15,22 +15,20 @@ function BookingHubApp() {
 
   return (
     <div className="px-[50px] sm:px-[145px] md:px-[361px]">
-      <Video
-        source={"/videos/Bookinghub app.mp4"}
-      />
+      <Video source={"/videos/Bookinghub app.mp4"} />
       <Title text={"Booking Hub App"} />
       <Services services={serviceList} />
       <div>
-        <p className="text-lg font-semibold pt-4">Introduction</p>
-        <p>
+        <p className="text-lg pt-4 font-microMedium">Introduction</p>
+        <p className="font-microRegular">
           BookingHub.ge is a modern booking platform designed to simplify the
           process of reserving beauty salon services, dental clinics, and mental
           health consultations. This case study presents the UX/UI design
           journey, challenges faced, and solutions implemented to create an
           intuitive and user-friendly experience.
         </p>
-        <p className="text-lg font-semibold pt-4"> Problem Statement</p>
-        <p>
+        <p className="text-lg font-microMedium pt-4"> Problem Statement</p>
+        <p className="font-microRegular">
           Users need a seamless and efficient way to book services with minimal
           communication effort while ensuring trust and convenience. Many
           existing platforms offer fragmented experiences, making it difficult
@@ -75,8 +73,22 @@ function BookingHubApp() {
         <ColorCard title={"Error"} bgcolor={"#FF3636"} hex={"FF3636"} />
       </div>
 
-      <div className=""></div>
-      <div className=""></div>
+      <img
+        src="../../images/bookinghubapp/bhapp1.png"
+        alt=""
+        className="rounded-xl mt-8 w-full"
+      />
+      <img
+        src="../../images/bookinghubapp/bhapp2.png"
+        alt=""
+        className="rounded-xl mt-8 w-full"
+      />
+      <img
+        src="../../images/bookinghubapp/bhapp3.png"
+        alt=""
+        className="rounded-xl mt-8 w-full"
+      />
+
 
       <img
         src="../../images/bookinghubapp/bapp2.png"
@@ -103,7 +115,7 @@ function BookingHubApp() {
         alt=""
         className="rounded-xl mt-6 w-full"
       />
-      <p className="mt-8 mb-16">
+      <p className="mt-8 mb-16 font-microRegular ">
         "Thank you for exploring my UX/UI case study for BookingHub.ge. The
         website is live at www.bookinghub.ge, offering a seamless booking
         experience for various services. The mobile application is currently in

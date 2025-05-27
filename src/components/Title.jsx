@@ -3,7 +3,7 @@ import React from "react";
 function Title({text}) {
   return (
     <div>
-      <p className="font-semibold text-2xl mt-8">{text}</p>
+      <p className="font-textMedium text-2xl mt-8">{text}</p>
     </div>
   );
 }

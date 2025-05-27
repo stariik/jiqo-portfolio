@@ -4,17 +4,17 @@ import Download from "../components/Download";
 function About() {
   return (
     <div>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-start px-9 py-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto items-start px-6 py-8 text-[20px]">
       <div className="flex justify-center">
         <img
           src="/images/jiqo.png"
           alt="Profile"
-          className="rounded-xl h-[577px] object-cover"
+          className="rounded-xl object-cover"
         />
       </div>
 
       {/* Right: Text */}
-      <div className="space-y-8">
+      <div className="space-y-8 font-microRegular ">
         <p>
           I'm Luka Jiqia, a graphic and UI/UX designer from Tbilisi. I create
           brand identities and interactive digital experiences, but I’m always
@@ -33,9 +33,9 @@ function About() {
         </p>
 
         {/* Programs Box */}
-        <div className="bg-[#EDEEED] p-7 rounded-xl">
-          <h3 className="font-semibold mb-2">Programs</h3>
-          <div className="grid grid-cols-2 gap-y-1 text-gray-600">
+        <div className="bg-[#EDEEED] p-7 rounded-xl mt-12">
+          <h3 className="font-microMedium mb-2 ">Programs</h3>
+          <div className="grid grid-cols-2 gap-y-1 text-gray-600 font-microRegular">
             <p>Photoshop</p>
             <p>Lightroom</p>
             <p>Illustrator</p>

@@ -7,7 +7,7 @@ import FourGrid from "../components/FourGrid";
 
 function VisualPlayground() {
   return (
-    <div className="px-[50px] sm:px-[145px] md:px-[361px] pb-16">
+    <div className="px-[50px] sm:px-[145px] md:px-[361px] pb-16 font-microRegular ">
       <Video
         source={"/videos/Visual Playground.mp4"}
       />
