@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div className="p-8">
-      <div className="my-8 mx-auto w-[455px]">
+      <div className="mb-8 mx-auto w-[455px]">
         <p className="font-microRegular text-xl leading-[24px] text-center">
           I'm Luka Jikia, a graphic & UI / UX designer with an addiction to
           detail and a love for storytelling.

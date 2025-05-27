@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto w-max mt-12 mb-36">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto w-max mt-6 mb-36">
       <div className="col-span-1 md:col-span-2 text-xl text-center mt-2 mb-2 w-md mx-auto font-microRegular">
         I'm Luka Jikia, a graphic & UI / UX designer with an addiction to detail
         and a love for storytelling.
