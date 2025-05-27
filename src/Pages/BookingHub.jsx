@@ -62,7 +62,7 @@ function BookingHub() {
           alt=""
           className="w-full rounded-xl object-cover mt-6"
         />
-        <div className="grid grid-cols-5 gap-6 mt-6">
+        <div className="grid grid-cols-5 gap-6 mt-6 text-xs font-semibold font-montserrat">
           <div className="rounded-xl col-span-2 ">
             <img
               src="/images/bookinghub/booking5.png"

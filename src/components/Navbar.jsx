@@ -150,7 +150,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="mx-auto left-1/2 mt-8 w-[693px] h-[102px] bg-[#EDEEED] rounded-[15px] flex items-center px-4">
+    <div className="mx-auto left-1/2 mt-8 w-[693px] h-[102px] bg-[#EDEEED] rounded-[15px] flex items-center px-6">
       {navItems.map((item) => (
         <button
           key={item.id}

@@ -3,7 +3,7 @@ import Download from "../components/Download";
 
 function About() {
   return (
-    <div>
+    <div className="mb-16">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto items-start px-6 py-8 text-[20px]">
       <div className="flex justify-center">
         <img

@@ -64,7 +64,7 @@ function Marketino() {
             className="object-cover rounded-xl shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
           />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-2 md:mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-2 md:mt-6 font-semibold font-montserrat">
           <div className="bg-[#220659] rounded-xl relative h-32 md:h-[460px]">
             <div className="absolute bottom-8 left-6 text-white text-xs leading-tight">
               #220659
