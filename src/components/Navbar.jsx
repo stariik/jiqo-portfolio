@@ -13,7 +13,7 @@ export default function Navbar() {
   const navItems = [
     {
       id: "nav1",
-      route: "/bookinghub",
+      route: "/",
       svg: (
         <svg
           width="40"
@@ -33,7 +33,6 @@ export default function Navbar() {
     },
     {
       id: "nav2",
-      route: "/bookinghubapp",
       svg: (
         <svg
           width="63"
@@ -53,7 +52,6 @@ export default function Navbar() {
     },
     {
       id: "nav3",
-      route: "/marketino",
       svg: (
         <svg
           width="63"
@@ -73,7 +71,6 @@ export default function Navbar() {
     },
     {
       id: "nav4",
-      route: "/teacorner",
       svg: (
         <svg
           width="63"
@@ -93,7 +90,6 @@ export default function Navbar() {
     },
     {
       id: "nav5",
-      route: "/trustster",
       svg: (
         <svg
           width="63"
@@ -168,7 +164,7 @@ export default function Navbar() {
           setActive("work");
           navigate("/projects");
         }}
-        className={`font-textMedium ml-auto w-[123px] h-[54px] rounded-[15px] text-[22px] font-medium leading-[26px] transition-colors duration-300 cursor-pointer hover:bg-black hover:text-white flex items-center justify-center ${
+        className={`font-textMedium ml-6 w-[123px] h-[54px] rounded-[15px] text-[22px] font-medium leading-[26px] transition-colors duration-300 cursor-pointer hover:bg-black hover:text-white flex items-center justify-center ${
           active === "work" ? "bg-black text-white" : "bg-[#DDDEDC] text-black"
         }`}
       >
@@ -179,7 +175,7 @@ export default function Navbar() {
             setActive("about");
             navigate("/about");
           }}
-        className={`font-textMedium ml-2 w-[125px] h-[54px] rounded-[15px] text-[22px] font-medium leading-[26px] flex items-center transition-colors duration-300 cursor-pointer hover:bg-black hover:text-white  justify-center ${
+        className={`font-textMedium ml-6 w-[125px] h-[54px] rounded-[15px] text-[22px] font-medium leading-[26px] flex items-center transition-colors duration-300 cursor-pointer hover:bg-black hover:text-white  justify-center ${
           active === "about" ? "bg-black text-white" : "bg-[#DDDEDC] text-black"
         }`}
       >
