@@ -21,7 +21,7 @@ const ImageSlider = () => {
         infinite={true}
         canSwipe={true}
         transitionDuration={1200}
-        duration={1200}
+        duration={1000}
       >
         <div className="each-slide-effect ">
           <div
