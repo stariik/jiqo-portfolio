@@ -13,15 +13,15 @@ function Home() {
           detail and a love for storytelling.
         </p>
       </div>
-      
+
       <ImageSlider />
 
       <div className="bg-gray-100 p-4 rounded-xl text-center w-[455px] mx-auto mt-8">
         <p className="font-microRegular text-[20px] mb-2 text-gray-900">
           Always searching new partners
         </p>
-        <button
-          onClick={() => navigate("/about")}
+        <a
+          href="mailto:luka.jiqia.91@gmail.com"
           className="font-textMedium flex items-center gap-2 bg-gray-200 hover:bg-gray-300 text-[22px] text-black py-4 px-20 rounded-xl transition cursor-pointer mx-auto"
         >
           Let's Work Together!{" "}
@@ -40,7 +40,7 @@ function Home() {
               strokeLinejoin="round"
             />
           </svg>
-        </button>
+        </a>
       </div>
     </div>
   );
