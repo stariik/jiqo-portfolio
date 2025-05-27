@@ -14,7 +14,7 @@ const ImageSlider = () => {
     "/images/PLAYGROUND.png",
   ];
   return (
-    <div className="border-[11px] border-[#EDEEED] rounded-xl w-[1171px] mx-auto bg-[#EDEEED]">
+    <div className="border-[11px] border-[#EDEEED] rounded-xl w-[1171px] mx-auto bg-[#EDEEED] cursor-pointer">
       <Slide
         vertical={true}
         autoplay={true}
