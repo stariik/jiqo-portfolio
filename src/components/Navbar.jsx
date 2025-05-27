@@ -6,8 +6,10 @@ export default function Navbar() {
   const navigate = useNavigate();
 
   const handleNavClick = (id, route) => {
+    setActive(id);     // <-- this line fixes the state
     navigate(route);
   };
+  
 
   const navItems = [
     {
@@ -110,11 +112,7 @@ export default function Navbar() {
           viewBox="0 0 40 54"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className={`transition-colors duration-300 cursor-pointer ${
-            active === "nav7"
-              ? "fill-black" // Active = Black, no hover effect
-              : "fill-[#DDDEDC] hover:fill-[#FE9C28]" // Inactive = Gray, hover = Orange
-          }`}
+          className={`transition-colors duration-300 cursor-pointer fill-[#DDDEDC] hover:fill-[#FE9C28]`}
         >
           <path d="M31.2049 0C29.7884 0 28.4776 0.749131 27.7586 1.96954L21.9746 11.7868C21.6121 12.4021 21.4209 13.1032 21.4209 13.8173V31.7607C21.4209 33.9699 19.63 35.7607 17.4209 35.7607H10.1365C8.72006 35.7607 7.40922 36.5099 6.6902 37.7303L0.667267 47.9529C-0.903774 50.6194 1.01868 53.9834 4.11359 53.9834H36C38.2091 53.9834 40 52.1925 40 49.9834V4C40 1.79086 38.2091 0 36 0H31.2049Z" />
         </svg>
